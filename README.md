@@ -1,9 +1,5 @@
-# Project Name
-This project is ________. (Describe the main goals of the project. Limit to 1-2 sentences)
+# Pulmo-AI
+## Aim:
+Our goal with this project is to provide healthcare professionals and patients a universal tool for diagnosing and predicting lung cancer based on several factors including CT-scans, and other biometric data.
 
-## Description
-Optional section to provide a more detailed overview of the project.
-
-## Getting Started
-Optional section to summarize important steps and how to use the project & apps in the project
 
