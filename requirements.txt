@@ -1,1 +1,15 @@
 jupyterlab>3.0
+pandas
+monai
+np
+matplotlib
+seaborn
+scipy
+scikit-learn
+joblib
+torch
+torchvision
+ipywidgets
+Pillow
+opencv-python-headless
+torchinfo
