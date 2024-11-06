@@ -1,0 +1,1 @@
+{"schema":"v1","records":[{"type":"ENVIRONMENT","operation":"CREATED","data":[{"data":"Added packages through pip package manager: pandas, monai, np, matplotlib, seaborn, scipy, scikit-learn, joblib, torch, torchvision, ipywidgets, Pillow, opencv-python-headless, torchinfo","mime":"text/plain"}],"important":null}]}
