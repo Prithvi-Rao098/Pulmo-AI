@@ -92,7 +92,9 @@ execution:
     gpu:
       requested: 0
     sharedMemoryMB: 0
-  secrets: []
+  secrets:
+  - variable: key
+    description: Ollama Key
   mounts:
   - type: project
     target: /project/
