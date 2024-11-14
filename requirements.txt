@@ -13,3 +13,4 @@ ipywidgets
 Pillow
 opencv-python-headless
 torchinfo
+ollama
