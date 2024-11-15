@@ -1,0 +1,8 @@
+
+These two files are for the new model that we are working on for the comprehensive diagnosis and segemention of anomalies in patient's lungs. We aim to leverage Nvidia MONAI for classification and UNET for the segmentation of xray images.
+We are using using the openI chest xray datanased to train the multipmodal modal and 
+- code is derived from the MONAI tutorials github, links down below
+
+Citations:
+    multimodal classification - https://github.com/Project-MONAI/tutorials/tree/main/multimodal/openi_multilabel_classification_transchex
+    2d segmentation - https://github.com/Project-MONAI/tutorials/tree/main/2d_segmentation
