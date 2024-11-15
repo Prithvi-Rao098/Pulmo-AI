@@ -5,7 +5,7 @@ from torchvision.models import resnet18, ResNet18_Weights
 from PIL import Image
 
 # Define the number of classes and class names
-class_names = ['normal', 'adenocarcinoma_left.lower', 'large.cell.carcinoma_left', 'squamous.cell.carcinoma_left'] 
+class_names = ['normal', 'adenocarcinoma_left.lower', 'large.cell.carcinoma_left', 'squamous.cell.carcinoma_left']
 number_of_classes = len(class_names)
 
 # Initialize the ResNet-18 model pre-trained on ImageNet
@@ -16,7 +16,7 @@ resnet18_model.fc = nn.Sequential(
     nn.Linear(resnet18_model.fc.in_features, 512),
     nn.Dropout(0.2),
     nn.Linear(512, 256),
-    nn.Linear(256, number_of_classes)
+    nn.Linear(256, 4)
 )
 
 # Check if a GPU is available and move the model to GPU if possible
@@ -53,11 +53,9 @@ def predict_cancer_type(model, image_path, class_names, device):
 
     return predicted_class
 
-# Ask the user for the image path
-image_path = input("Please enter the path to the image you want to analyze: ")
-
 # Example usage
 model_path = 'models/ct_scan_model.pth'
+image_path =  '000122 (6).png'
 
 # Load the model
 model = resnet18_model  # Ensure the architecture matches the saved model

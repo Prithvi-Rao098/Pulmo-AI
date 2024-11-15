@@ -106,7 +106,7 @@ execution:
       url: http://localhost:8080/
   resources:
     gpu:
-      requested: 0
+      requested: 1
     sharedMemoryMB: 0
   secrets:
   - variable: key
