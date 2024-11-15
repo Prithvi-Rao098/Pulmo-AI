@@ -1,7 +1,6 @@
 jupyterlab>3.0
 pandas
 monai
-np
 matplotlib
 seaborn
 scipy
