@@ -6,6 +6,7 @@ seaborn
 scipy
 scikit-learn
 joblib
+numpy
 torch
 torchvision
 ipywidgets
