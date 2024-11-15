@@ -14,5 +14,4 @@ Pillow
 opencv-python-headless
 torchinfo
 ollama
-streamlit
 gradio
