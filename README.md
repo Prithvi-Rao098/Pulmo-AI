@@ -65,3 +65,4 @@ This app is still in development and is a prilimary step into what we believe wi
 
 ## Disclaimer:
 This model is intended for informational and research purposes only and should not be used as a substitute for professional medical diagnosis, advice, or treatment.
+To check the new models for segmentaion and classifiction using MONAI in the "code/other_models/" path.
