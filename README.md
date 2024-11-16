@@ -42,10 +42,26 @@ This predictive model can be used as a tool for early detection, personalized he
 ^ correlation graph
 
 ### Healthcare Chatbot
-As an important 
+As an important addition to this app, we added chat bot integration for disease preventative care and further patient engagement. 
 
 
+# Installation
+
+### Instructions
+
+1. Clone this repository into NVIDIA AI Workbench and build with Docker.
+2. Navigate to 'code/sdataprediction.ipynb' and run all the cells to run the data prediction model.
+3. Navigate to 'code/GPT.ipynb' and run the cells to test the chatbot implementation.
+4. Navigate to 'code/Limagediagnosis.ipynb' and run all cells to run the model that classifies the ct scans
+5. Navigate to 'ImagePredict.py' and run the command
+   **python3 ImagePredict.py**
+   in the terminal. You can add your own ct scan file and update the path in ImagePredict if you would like to apply further test
+   cases.
+6. To test the Web Application, navigate to the environment tab on AI Workbench and add a new app.
 
 
-### Disclaimer:
+## Submission Comments:
+This app is still in development and is a prilimary step into what we believe will be a better and more comprehensive app. We plan to make changes to the Image Diagnosis, and chat bot implementation and the overall application. We plan to use NVIDIA Monai for the segmentation and detection of various types of lung anomalies based on a larger database of XRAYS.
+
+## Disclaimer:
 This model is intended for informational and research purposes only and should not be used as a substitute for professional medical diagnosis, advice, or treatment.
